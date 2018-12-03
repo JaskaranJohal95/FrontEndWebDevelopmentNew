@@ -18,3 +18,27 @@ topnav {
   justify-content: center;
   background: #338BFF;
 }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.flex-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}

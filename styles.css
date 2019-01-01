@@ -1,16 +1,64 @@
 a:hover {
   background-color: #7AFF33;
 }
-
-body {background-color: #348EF2 }
+html{height: 100%;margin:0;padding:0;}
+body {background-color: #348EF2;padding:0;margin:0;height: 100%;}
 main {
-  padding: 0 10px;
+  padding: 0;
+  margin-left: 0;
+  margin-top: 5%;
+}
+.artisthome{
+  height: 100%;
 }
 
 header {
-  background #338BFF
-  padding: 0.25em;
+  height: 100%;
+  position: relative;
+  width: 100%;
   text-align: center;
+  color: white;
+  border:none;
+}
+
+header img{
+  width: 100%;
+  border:none;
+  margin:0;
+  padding:0;
+  text-align: left;
+  border-radius: 0px;
+}
+
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.dark-overlay{
+  width: 100%;
+  background:black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  opacity: 0.8;
+}
+i {
+  border: solid white;
+  border-width: 0 12px 12px 0;
+  display: inline-block;
+  padding: 12px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 topnav {
@@ -48,12 +96,13 @@ width:500px!important;
 height:500px!important;
 }
 
-
-
-body {
-  background: #fcc;
-  margin: 0;
+.page-intro-title{
+  border: 3px solid;
+  border-color: white;
+  padding:0.5em;
 }
+
+
 
 nav {
   display: none;
@@ -61,13 +110,25 @@ nav {
   justify-content: center;
   background: #333;
   flex-direction: column;
+
+  border: solid 1px;
+  border-color:transparent;
+  border-radius: 30px;
+  margin-top: 1%;
 }
 nav a {
   padding: 1.25em 1.5em;
-  color: #ccc;
-  background: #555;
+  color: #fff;
   text-decoration: none;
-  transition: all 1.5s;
+  transition: all 0.2s;
+}
+
+nav a.active{
+  padding: 1.25em 1.5em;
+  color: black;
+  background: white;
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
 .menu-home {
@@ -86,7 +147,16 @@ nav:hover {
   display: flex;
 }
 
+h1{
+  font-family:
 
+}
+
+.space-divider-40{
+  height: 150px;
+  width: 100%;
+
+}
 
 /* TABLET STYLES */
 
@@ -94,9 +164,7 @@ nav:hover {
 
   /* applies to screens wider than 499px */
 
-  body {
-    background: #cfc;
-  }
+
   .menu {
     display: none;
   }
@@ -106,8 +174,8 @@ nav:hover {
   }
   /* just change the menu colours on hover above mobile widths */
   nav a:hover {
-    color: #dfd;
-    background: #797;
+    color: black;
+    background: white;
   }
 
 }
@@ -120,7 +188,5 @@ nav:hover {
 
   /* applies to screens wider than 999px */
 
-  body {
-    background: #ccf;
-  }
+
 }

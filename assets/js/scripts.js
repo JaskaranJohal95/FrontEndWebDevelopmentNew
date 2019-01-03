@@ -1,4 +1,9 @@
-document.getElementById("scroll-down-intro").addEventListener("click", scrollDown);
+const el = document.getElementById("scroll-down-intro");
+
+if(el){
+  el.addEventListener('click', scrollDown, false);
+}
+
 
 function scrollDown(event) {
   window.scrollBy({

@@ -1,31 +1,127 @@
-<!DOCTYPE HTML>
-<HTML>
-  <head>
-  <title>My Example Website</title>
-  <link rel="stylesheet" href="styles.css" type="text/css">
-  </head>
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lab 2</title>
 
-    <body>
-      <h1> My Example Website</h1>
-      <p>This is an example website created for this lab. Below I will now insert a table as an example</p>
-      <table style="width:50%">
-        <table border="1">
-        <tr>
-          <th>Windows</th>
-          <th>Mac OSX</th>
-          <th>Linux</th>
-        </tr>
-        <tr>
-        <td>10</td>
-        <td>Yosemite</td>
-        <td>Ubuntu</td>
-      </tr>
-        <tr>
-          <td>8</td>
-          <td>Tiger</td>
-          <td>Fedora</td>
-        </tr>
-      </tr>
-      </table>
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    </head>
+
+
+      <body>
+          <header class="page-intro">
+            <img class="artisthome" src="assets/img/music-intro-bg.jpg" alt="artist home image" />
+            <div class="dark-overlay"> </div>
+            <div class="centered">
+                <h1 class="page-intro-title">Head-Top Tunes</h1>
+                <h2>All the latest on the hottest artists right now</h2>
+                <div class="space-divider-40"> </div>
+                </div>
+          </header>
+
+          <div class="menu" id="menu-toggle">MENU</div>
+          <nav id="menu-nav">
+              <a href="index.html">Home</a>
+              <a href="music.html" class="active">Music </a>
+              <a href="about-us.html">About Us</a>
+              <a href="contact-us.html">Contact Us</a>
+          </nav>
+
+          <main>
+
+              <!-- CSS Grid Top Container -->
+          <div class="grid-container">
+
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/21-savage-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">21 Savage </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc">Shayaa Bin Abraham-Joseph, famous as 21 Savage and as the Slaughter King, is an American rapper and songwriter. A popular teen icon today, he is admired not just for his musical skills, but also for his incredible rise to name and fame from being a petty criminal on the streets.</p>
+              </div>
+
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/asap-rocky-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">A$AP Rocky </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc"> ASAP (or A$AP) Rocky is an American rapper who burst on the music scene in 2011 and soon after released his chart-topping albums 'Long.Live.A$AP' and 'At.Long.Last.A$AP.' </p>
+              </div>
+
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/cardi-b-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">Cardi B </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc"> Cardi B is a Grammy-nominated American rapper, social media personality and former reality star whose commercial debut single "Bodak Yellow" surged to the top of the music charts in 2017. </p>
+              </div>
+              
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/drake-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">Drake </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc"> TV and rap star Drake is best known in Canada for playing wheelchair-bound Jimmy Brooks on 'Degrassi: The Next Generation,' and for hit songs like 'Take Care,' 'One Dance' and 'Hotline Bling.' </p>
+              </div>
+              
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/giggs-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">Giggs </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc"> Nathan Thompson (born 1983, better known by his stage names Giggs or Hollowman, is a British rapper from Peckham, South London. He is the leader of SN1 (Spare No 1), a branch of the Peckham Black Gang, alongside his brother Joe Grind, Spender, YG (Young Giggs) and Gunna D. </p>
+              </div>
+              
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/kodak-bio.jpeg" alt="artist home image" />
+                  <h3 class="bio-title">Kodak Black </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc">Kodak Black is an American hip hop recording artist and rapper. His birth name is Dieuson Octave. He is recognized by his stage name Kodak Black. He is noted for his singles “No Flockin” and “Tunnel Vision”, as well as his numerous legal issues.  </p>
+              </div>
+              
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/lil-wayne-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">Lil Wayne</h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc"> Lil Wayne is a Grammy Award-winning rapper known for his hit albums, mixtapes and singles, including "A Milli" and "Lollipop."</p>
+              </div>
+              
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/meek-mill-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">Meek Mill </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc"> Back in 2011, Meek Mill was relatively unknown but his fate changed quickly when Rick Ross took him under his wings. </p>
+              </div>
+              
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/nicki-minaj-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">Nicki Minaj </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc"> Hip-hop artist Nicki Minaj rocketed to fame with tracks like "Super Bass," "Starships," and later "Anaconda." She is the first female solo artist to have seven singles simultaneously on the Billboard 100 chart.</p>
+              </div>
+              
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/rich-the-kid-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">Rich the kid </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc"> Rich the Kid, born as Dimitri Leslie Roger, is an American rapper, songwriter, actor, and record producer. He has released one studio album, three singles, seven mixtapes, and 11 collaborative mixtapes till date. </p>
+              </div>
+              
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/tory-lanez-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">Tory Lanez </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc"> Tory Lanez is known for being one of the most flexible commercial artists that surfaced during the early 2010s. He is a producer and a songwriter capable of flitting between as well as fusing rap and R&B. </p>
+              </div>
+              
+              <div class="grid-item">
+                  <img class="artist-bio" src="assets/img/bios/21-savage-bio.jpg" alt="artist home image" />
+                  <h3 class="bio-title">Travis Scott </h3>
+                  <p class="bio-by"> By Head-Top Musik </p>
+                  <p class="bio-desc"> A Houston-born hip-hop artist and producer affiliated with Kanye West's GOOD Music and T.I.'s Grand Hustle, Travis Scott became known during the early 2010s for his heavily Auto-Tuned half-sung/half-rapped vocal style. </p>
+              </div>
+
+             
+         </div>
+
+            </main>
+            <script src="assets/js/scripts.js"></script>
+
       </body>
-</HTML>
+</html>

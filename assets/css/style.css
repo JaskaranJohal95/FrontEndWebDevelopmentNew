@@ -7,11 +7,18 @@ main {
   padding: 0;
   margin-left: 0;
   margin-top: 5%;
+  position: relative;
+  z-index: 1;
 }
 .artisthome{
   height: 100%;
 }
-
+.artist-bio{
+  height: 600px;
+    max-height: 400px;
+    overflow: hidden;
+  width: 100%;
+}
 header {
   height: 100%;
   position: relative;
@@ -30,6 +37,28 @@ header img{
   border-radius: 0px;
 }
 
+.page-intro {
+  height: 30%!important;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border:none;
+  overflow: hidden;
+}
+
+.page-intro img{
+  width: 100%;
+  border:none;
+  margin:0;
+  padding:0;
+  text-align: left;
+  border-radius: 0px;
+  text-overflow: hidden;
+  height: auto;
+  position: relative;
+
+}
 .centered {
   position: absolute;
   top: 65%;
@@ -130,6 +159,27 @@ nav a.active{
   transition: all 0.2s;
 }
 
+.bio-title{
+  color:white;
+  text-align: left;
+  margin: 0;
+  padding:0;
+  margin-bottom: 1%;
+}
+
+.bio-desc{
+  color:white;
+  text-align: left;
+  font-size:16pt;
+}
+
+.bio-by{
+  color:white;
+  text-align: left;
+  font-size:14pt;
+  margin:0;
+}
+
 .menu-home {
   background: #555;
   text-align: center;
@@ -144,6 +194,21 @@ nav a.active{
  .menu:hover + nav,
 nav:hover {
   display: flex;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+  border:none;
+}
+.grid-item {
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  border:none;
 }
 
 .space-divider-40{

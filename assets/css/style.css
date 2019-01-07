@@ -64,7 +64,7 @@ header img{
   padding:0;
   text-align: left;
   border-radius: 0px;
-  text-overflow: hidden;
+  overflow: hidden;
   height: auto;
   position: relative;
 
@@ -78,7 +78,7 @@ header img{
 
 .news-content img{
     width: 50%;
-    height: 30;
+    height: 30%;
 }
 
 
@@ -330,9 +330,7 @@ li .txt {
   padding-right: 10px;
 }
 
-li:nth-child(even) {
-  background: #eee;
-}
+
 
 
 

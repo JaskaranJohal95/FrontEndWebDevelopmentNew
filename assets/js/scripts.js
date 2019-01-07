@@ -31,7 +31,7 @@ function templater(strings, ...keys) {
     }
 };
 
-
+//Pop-up Box Song Listing Code 
 const modalTemplate = templater`
   <div id="myModal" class="modal">
   <div class="modal-content">
@@ -55,7 +55,7 @@ const modalTemplate = templater`
 
 
 
-
+//Pop-up Box Content
 const savage = {
     name: "21 Savage",
     song1: "Bank Account",

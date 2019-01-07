@@ -37,6 +37,7 @@ main {
     
 }
 
+/* Header for Homepage*/
 header img{
   width: 100%;
   border:none;
@@ -103,6 +104,7 @@ i {
   transform: rotate(45deg);
 }
 
+/* nav bar */
 topnav {
   display: flex;
   justify-content: center;
@@ -117,6 +119,7 @@ img {
 
 }
 
+/* Flexbox Container*/
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -299,7 +302,7 @@ nav:hover {
 }
 
 
-/* TEST CODE FOR JSON API FUNCTIONAILITY */
+/* API Style Info */
 
 ul {
   list-style-type: none;
@@ -331,7 +334,7 @@ li:nth-child(even) {
   background: #eee;
 }
 
-/* END OF TEST CODE FOR JSON API FUNCTIONAILITY */
+
 
 
 

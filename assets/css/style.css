@@ -75,9 +75,9 @@ header img{
   transform: translate(-50%, -50%);
 }
 
-.news-content{
-    width: 100%;
-    height: 30%;
+.news-content img{
+    width: 50%;
+    height: 30;
 }
 
 
